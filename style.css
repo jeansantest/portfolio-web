@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(80, 100, 120); 
+    color: aliceblue; 
+    font-family: Poppins; 
+    font-size: 18px; 
+    line-height: 40px; 
+    letter-spacing: -1;
+}
+
+#welcome {
+    font-size: 2.5em; 
+    font-weight: 600;
+}
+
+#name {
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+
+#introduction {
+    font-size: 1em; 
+    font-weight: 400; 
+    line-height: 1.9em; 
+    text-align: justify; 
+    line-height: 30px;
+}
+
+#skill {
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+
+#links{
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+
+#internal-links {
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+
+.link {
+    text-decoration: none; 
+    font-weight: 400; 
+    color: rgb(80, 200, 300); 
+}
+
+.skill-list {
+    text-align: left; 
+    font-weight: 400;
+}
+
