@@ -3,8 +3,128 @@ body {
     color: aliceblue; 
     font-family: Poppins;
     font-size: 18px; 
-    line-height: 40px; 
+    line-height: 30px; 
     letter-spacing: -1;
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+}
 
+.margin {
+    margin: 3rem !important;
+}
+
+.image {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.rounded {
+    border-radius: 50% !important;
+}
+
+.selfie {
+    height: 250px;
+    width: 250px;
+}
+
+.teste {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.social-media {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.welcome {
+    color: black;
+    font-size: 2.5rem;
+    border-right: 2px solid rgb(80, 100, 120) ;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.skill-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.border-right {
+    border-right: 2px solid white;
+    margin-right: 20px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+.block {
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.link {
+    text-decoration: none;
+}

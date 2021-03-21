@@ -8,41 +8,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 id="welcome"><em>Welcome to my Web Portfolio</em></h1>
+    <a id="aboutme"></h1>
+    <nav class="navbar fixed-top">
+        <div class="navbar-expand flex-row-reverse">
+            <ul class="navbar-nav">
+                <p><span class="welcome">Welcome to my Web Portfolio</span></p>
+                <li><a href="#aboutme" class="link block">About me</a></li>
+                <li><a href="#social-media" class="link block">Social Media</a></li>
+                <li><a href="https://blog.betrybe.com/" target="_blank" class="link block">Favorite Blog</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="me">
-    <h2 id="name"><em>My name is Jean Santiago Sabença Esteves</em></h2>
-
-    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEQ98tojy8_SA/profile-displayphoto-shrink_200_200/0/1614861803107?e=1621468800&v=beta&t=xj0JyMyKRTUQZuPEvro9BOyjD8mfLPBQEzAtiOFyAzc" width="250px" alt="Own Selfie" id="selfie">
-
-    <p id="introduction">
-        Hello, my name is Jean Esteves, I'm from <strong>Brazil, Volta Redonda/RJ.</strong>
-        <br>
-        I'm an environmental technician, graduated from the Federal Institute of Rio de Janeiro in Pinheiral, currently studying at Trybe, where I am focused on being a new Web Developer and building a career based on this profession that I think amazing. As an environmental technician, I did an internship in topography and irrigation, with that I managed to evolve a lot mentally and physically too, it helped a lot in my evolution as a person. Currently I discovered what I really want to learn and focus on my career - Web Development - and Trybe fit like a glove.
-        <br>
-        I'm still at the beginning of my journey and I hope to evolve a lot!
-    </p>
+    <h1 class=""><em>Welcome to my Web Portfolio</em></h1>
+    <div class="row">
+        <div class="margin image">
+    
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEQ98tojy8_SA/profile-displayphoto-shrink_200_200/0/1614861803107?e=1621468800&v=beta&t=xj0JyMyKRTUQZuPEvro9BOyjD8mfLPBQEzAtiOFyAzc" alt="Own Selfie" class="rounded selfie">
+    
+        </div>
+        <div class="margin teste row">
+        <div>
+        <h2 id="name" class="text-justify"><em>Hey guys, my name is Jean Esteves!</em></h2>
+        </div>    
+        <div class="">
+        <p id="introduction" class="text-justify">
+            I'm a Web Development Student from <span class="bold">Brazil, Volta Redonda/RJ.</span> Currently studying at Trybe, where I am focused on being a new Web Developer and building a career based on this profession that I think amazing.
+        </p>
+        </div>
+    </div>
+    </div>
+    <div id="skill" class="skills align row">
+    <h2 class="skill-list m-top border-right"><em>Skills</em></h2>
+        <ul class="skill-list">
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Excel</li>
+            <li><strong>Adobe Photoshop</strong></li>
+            <li>Adobe Illustrator</li>
+        </ul>
     </div>
     
-    <h2 id="skill" class="skill-list"><em>Skill List</em></h2>
-
-    <ul class="skill-list">
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Excel</li>
-        <li><strong>Adobe Photoshop</strong></li>
-        <li>Adobe Illustrator</li>
-    </ul>
-
-    <h2 id="links"><em>Links</em></h2>
-    <a href="#selfie" class="link">It's me</a><br>
-    <a href="https://blog.betrybe.com/" target="_blank" class="link">Favorite blog</a>
-
-    <h2 id="internal-links"><em>Internal Links</em></h2>
-    <a href="#welcome" class="link">Welcome</a><br>
-    <a href="#name" class="link">My name</a><br>
-    <a href="#introduction" class="link">About me</a><br>
-    <a href="#skill" class="link">Skill List</a>
+    <div class="align">
+    <nav>
+        <ul id="social-media" class="navbar-nav">
+        <li><a href="https://www.linkedin.com/in/jeanesteves/" target="_blank"><img class="social-media rounded" src="image/linkedin.png" alt="linkedin"></a></li>
+        <li><a href="https://github.com/jeansantest" target="_blank"><img class="social-media rounded" src="image/github.png" alt="github"></a></li>
+        </ul>
+    </nav>
+    </div>
 </body>
 </html>
+
+<!-- sources https://rodrigo.kamada.com.br/profile
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/vertical-align
+    https://cursos.alura.com.br/forum/topico-css-centralizando-uma-imagem-40021 https://www.w3.org/Style/Examples/007/center.pt_BR.html
+    https://tableless.com.br/centralizando-um-objeto-na-horizontal-e-vertical-com-css/
+    https://pt.stackoverflow.com/questions/257665/posicionar-div-no-centro-da-p%C3%A1gina
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap
+    https://github.com/emmabostian/developer-portfolios-->
