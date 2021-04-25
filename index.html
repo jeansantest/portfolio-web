@@ -19,10 +19,33 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1 class="animate__animated animate__backInLeft">I am Jean Esteves</h1>
-			<h2 class="animate__animated animate__backInRight">Welcome to my Web Portfolio</h2>
-			<span class="animated animate__bounce"></span>
+		<nav>
+			<div>
+				<h1>Jean Esteves</h1>
+				<a href="#hero">Home</a>
+				<a href="#description">About me</a>
+				<a href="">Skills</a>
+				<a href="">Projects</a>
+				<a href="">Contact</a>
+			</div>
+		</nav>
+    <header id="hero" class="column center">
+      <h1 class="animate__animated animate__zoomInDown">I am Jean Esteves</h1>
+			<h2 class="animate__animated animate__zoomInDown">Welcome to my Web Portfolio</h2>
+			<a href="#description" onClick="scroll(0, 100)" class="animated animate__bounce"></a>
     </header>
+		<section class="row center">
+			<img class="border-img margin" src="https://media-exp1.licdn.com/dms/image/C4D03AQEQ98tojy8_SA/profile-displayphoto-shrink_200_200/0/1614861803107?e=1621468800&v=beta&t=xj0JyMyKRTUQZuPEvro9BOyjD8mfLPBQEzAtiOFyAzc" alt="Own Selfie">
+			<div class="animate__animated animate__fadeInUp margin">
+				<p id="description">
+					Hello, my name is Jean Esteves, I'm from <strong>Brazil, Volta Redonda/RJ.</strong>
+					<br>
+					I'm an environmental technician, graduated from the Federal Institute of Rio de Janeiro in Pinheiral, currently studying at Trybe, where I am focused on being a new Web Developer and building a career based on this profession that I think amazing. As an environmental technician, I did an internship in topography and irrigation, with that I managed to evolve a lot mentally and physically too, it helped a lot in my evolution as a person. Currently I discovered what I really want to learn and focus on my career - Web Development - and Trybe fit like a glove.
+					<br>
+					I'm still at the beginning of my journey and I hope to evolve a lot!
+				</p>
+			</div>
+		</section>
+		<script src="script.js"></script>
   </body>
 </html>
