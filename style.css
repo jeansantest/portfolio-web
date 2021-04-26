@@ -109,7 +109,11 @@ header h2 {
   font-size: 2em;
 }
 
-header a.animated {
+header span a {
+  padding: 40px;
+}
+
+header span.animated {
   position: absolute;
   margin: auto;
   right: 0;
@@ -123,8 +127,8 @@ header a.animated {
   animation-iteration-count: infinite;
 }
 
-header a::before,
-header a::after {
+header span::before,
+header span::after {
   position: absolute;
   top: -23px;
   content: "";
@@ -134,7 +138,7 @@ header a::after {
   background: #E7DFDD;
 }
 
-header a::before {
+header span::before {
   left: -10px;
   -webkit-transform: rotate(-45deg);
   -moz-transform:    rotate(-45deg);
@@ -143,7 +147,7 @@ header a::before {
   transform:         rotate(-45deg);
 }
 
-header a::after {
+header span::after {
   right: -10px;
   -webkit-transform: rotate(45deg);
   -moz-transform:    rotate(45deg);
