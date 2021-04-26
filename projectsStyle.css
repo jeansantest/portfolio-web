@@ -1,0 +1,28 @@
+.top {
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 4em;
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.margin-left {
+  margin-left: 40px;
+}
+
+.higher {
+  font-weight: 600;
+  font-size: 6em;
+}
+
+a {
+  text-decoration: none;
+  color: #E7DFDD;
+}
